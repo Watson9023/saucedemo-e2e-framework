@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-task1-final-submission",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript Page Object Model automation solution for SauceDemo Task 1",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.0.0"
+  }
+}
